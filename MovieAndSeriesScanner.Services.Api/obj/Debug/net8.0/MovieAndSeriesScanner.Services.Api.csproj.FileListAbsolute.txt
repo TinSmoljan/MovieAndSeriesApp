@@ -1,0 +1,15 @@
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\bin\Debug\net8.0\MovieAndSeriesScanner.Services.Api.deps.json
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\bin\Debug\net8.0\MovieAndSeriesScanner.Services.Api.dll
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\bin\Debug\net8.0\MovieAndSeriesScanner.Services.Api.pdb
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Services.Api.csproj.AssemblyReference.cache
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Services.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Services.Api.AssemblyInfoInputs.cache
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Services.Api.AssemblyInfo.cs
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Services.Api.csproj.CoreCompileInputs.cache
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Services.Api.dll
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\obj\Debug\net8.0\refint\MovieAndSeriesScanner.Services.Api.dll
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Services.Api.pdb
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\obj\Debug\net8.0\ref\MovieAndSeriesScanner.Services.Api.dll
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\bin\Debug\net8.0\MovieAndSeriesScanner.Common.Api.dll
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\bin\Debug\net8.0\MovieAndSeriesScanner.Common.Api.pdb
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Services.Api\obj\Debug\net8.0\MovieAnd.FD3DAB42.Up2Date

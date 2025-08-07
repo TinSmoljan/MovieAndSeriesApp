@@ -1,0 +1,245 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\MovieAndSeriesScanner.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\MovieAndSeriesScanner.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\MovieAndSeriesScanner.Api.csproj",
+        "projectName": "MovieAndSeriesScanner.Api",
+        "projectPath": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\MovieAndSeriesScanner.Api.csproj",
+        "packagesPath": "C:\\Users\\Tsmoljan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tsmoljan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\localNuggets": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.neogov.net/nuget/": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj": {
+                "projectPath": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj",
+        "projectName": "MovieAndSeriesScanner.Common.Api",
+        "projectPath": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj",
+        "packagesPath": "C:\\Users\\Tsmoljan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tsmoljan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\localNuggets": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.neogov.net/nuget/": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj",
+        "projectName": "MovieAndSeriesScanner.Services.Api",
+        "projectPath": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj",
+        "packagesPath": "C:\\Users\\Tsmoljan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tsmoljan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\localNuggets": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.neogov.net/nuget/": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj": {
+                "projectPath": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

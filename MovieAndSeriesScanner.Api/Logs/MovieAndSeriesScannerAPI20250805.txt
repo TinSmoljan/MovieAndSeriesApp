@@ -1,0 +1,740 @@
+2025-08-05 18:58:59.427 +02:00 [INF] Now listening on: https://localhost:7260
+2025-08-05 18:58:59.522 +02:00 [INF] Now listening on: http://localhost:5296
+2025-08-05 18:58:59.531 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-05 18:58:59.534 +02:00 [INF] Hosting environment: Development
+2025-08-05 18:58:59.536 +02:00 [INF] Content root path: C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Api
+2025-08-05 18:59:00.829 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2025-08-05 18:59:01.452 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 274 ms
+2025-08-05 18:59:01.480 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 665.3537ms
+2025-08-05 18:59:01.533 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-05 18:59:01.558 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 25.2316ms
+2025-08-05 18:59:01.957 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2025-08-05 18:59:02.066 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 110.1812ms
+2025-08-05 18:59:02.157 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2025-08-05 18:59:02.352 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 184 ms
+2025-08-05 18:59:02.363 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 206.5216ms
+2025-08-05 18:59:14.755 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/Movies - null null
+2025-08-05 18:59:14.767 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 18:59:14.801 +02:00 [INF] Route matched with {action = "GetMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovies(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 18:59:14.924 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/discover/movie?*
+2025-08-05 18:59:14.934 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/discover/movie?*
+2025-08-05 18:59:15.243 +02:00 [INF] Received HTTP response headers after 302.4452ms - 200
+2025-08-05 18:59:15.247 +02:00 [INF] End processing HTTP request after 326.4695ms - 200
+2025-08-05 18:59:15.408 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/755898/videos
+2025-08-05 18:59:15.411 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/755898/videos
+2025-08-05 18:59:15.418 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/986206/videos
+2025-08-05 18:59:15.420 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/986206/videos
+2025-08-05 18:59:15.425 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1087192/videos
+2025-08-05 18:59:15.427 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1087192/videos
+2025-08-05 18:59:15.434 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1100988/videos
+2025-08-05 18:59:15.437 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1100988/videos
+2025-08-05 18:59:15.443 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1311031/videos
+2025-08-05 18:59:15.447 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1311031/videos
+2025-08-05 18:59:15.455 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/715253/videos
+2025-08-05 18:59:15.458 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/715253/videos
+2025-08-05 18:59:15.467 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1071585/videos
+2025-08-05 18:59:15.474 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1071585/videos
+2025-08-05 18:59:15.479 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/552524/videos
+2025-08-05 18:59:15.482 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/552524/videos
+2025-08-05 18:59:15.489 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1263256/videos
+2025-08-05 18:59:15.491 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1263256/videos
+2025-08-05 18:59:15.500 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/617126/videos
+2025-08-05 18:59:15.504 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/617126/videos
+2025-08-05 18:59:15.513 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1181540/videos
+2025-08-05 18:59:15.517 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1181540/videos
+2025-08-05 18:59:15.523 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/980477/videos
+2025-08-05 18:59:15.526 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/980477/videos
+2025-08-05 18:59:15.533 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1119878/videos
+2025-08-05 18:59:15.535 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1119878/videos
+2025-08-05 18:59:15.541 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1061474/videos
+2025-08-05 18:59:15.544 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1061474/videos
+2025-08-05 18:59:15.550 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1011477/videos
+2025-08-05 18:59:15.553 +02:00 [INF] Received HTTP response headers after 138.4639ms - 200
+2025-08-05 18:59:15.553 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1011477/videos
+2025-08-05 18:59:15.558 +02:00 [INF] End processing HTTP request after 149.4086ms - 200
+2025-08-05 18:59:15.564 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1234821/videos
+2025-08-05 18:59:15.576 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1234821/videos
+2025-08-05 18:59:15.582 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1124619/videos
+2025-08-05 18:59:15.584 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1124619/videos
+2025-08-05 18:59:15.588 +02:00 [INF] Received HTTP response headers after 156.7786ms - 200
+2025-08-05 18:59:15.591 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1307078/videos
+2025-08-05 18:59:15.593 +02:00 [INF] End processing HTTP request after 168.0705ms - 200
+2025-08-05 18:59:15.595 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1307078/videos
+2025-08-05 18:59:15.602 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/541671/videos
+2025-08-05 18:59:15.606 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/541671/videos
+2025-08-05 18:59:15.610 +02:00 [INF] Received HTTP response headers after 187.9038ms - 200
+2025-08-05 18:59:15.611 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/803796/videos
+2025-08-05 18:59:15.613 +02:00 [INF] End processing HTTP request after 194.7949ms - 200
+2025-08-05 18:59:15.615 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/803796/videos
+2025-08-05 18:59:15.620 +02:00 [INF] Received HTTP response headers after 168.8495ms - 200
+2025-08-05 18:59:15.626 +02:00 [INF] End processing HTTP request after 183.3984ms - 200
+2025-08-05 18:59:15.658 +02:00 [INF] Received HTTP response headers after 182.1536ms - 200
+2025-08-05 18:59:15.661 +02:00 [INF] End processing HTTP request after 194.3093ms - 200
+2025-08-05 18:59:15.682 +02:00 [INF] Received HTTP response headers after 243.4621ms - 200
+2025-08-05 18:59:15.685 +02:00 [INF] End processing HTTP request after 250.7729ms - 200
+2025-08-05 18:59:15.689 +02:00 [INF] Received HTTP response headers after 224.8296ms - 200
+2025-08-05 18:59:15.691 +02:00 [INF] End processing HTTP request after 236.4061ms - 200
+2025-08-05 18:59:15.731 +02:00 [INF] Received HTTP response headers after 245.8116ms - 200
+2025-08-05 18:59:15.734 +02:00 [INF] End processing HTTP request after 254.9491ms - 200
+2025-08-05 18:59:15.754 +02:00 [INF] Received HTTP response headers after 234.2925ms - 200
+2025-08-05 18:59:15.758 +02:00 [INF] End processing HTTP request after 244.6591ms - 200
+2025-08-05 18:59:15.758 +02:00 [INF] Received HTTP response headers after 261.9209ms - 200
+2025-08-05 18:59:15.762 +02:00 [INF] End processing HTTP request after 274.1796ms - 200
+2025-08-05 18:59:15.806 +02:00 [INF] Received HTTP response headers after 296.3024ms - 200
+2025-08-05 18:59:15.810 +02:00 [INF] End processing HTTP request after 310.0191ms - 200
+2025-08-05 18:59:15.837 +02:00 [INF] Received HTTP response headers after 299.3424ms - 200
+2025-08-05 18:59:15.842 +02:00 [INF] End processing HTTP request after 309.4228ms - 200
+2025-08-05 18:59:15.853 +02:00 [INF] Received HTTP response headers after 305.5426ms - 200
+2025-08-05 18:59:15.856 +02:00 [INF] End processing HTTP request after 315.077ms - 200
+2025-08-05 18:59:15.872 +02:00 [INF] Received HTTP response headers after 272.003ms - 200
+2025-08-05 18:59:15.874 +02:00 [INF] End processing HTTP request after 282.9941ms - 200
+2025-08-05 18:59:15.896 +02:00 [INF] Received HTTP response headers after 335.6765ms - 200
+2025-08-05 18:59:15.900 +02:00 [INF] End processing HTTP request after 349.9768ms - 200
+2025-08-05 18:59:15.943 +02:00 [INF] Received HTTP response headers after 320.7132ms - 200
+2025-08-05 18:59:15.947 +02:00 [INF] End processing HTTP request after 336.0843ms - 200
+2025-08-05 18:59:15.973 +02:00 [INF] Received HTTP response headers after 443.3037ms - 200
+2025-08-05 18:59:15.979 +02:00 [INF] End processing HTTP request after 456.2279ms - 200
+2025-08-05 18:59:16.041 +02:00 [INF] Received HTTP response headers after 461.3731ms - 200
+2025-08-05 18:59:16.045 +02:00 [INF] End processing HTTP request after 480.2596ms - 200
+2025-08-05 18:59:16.112 +02:00 [INF] Received HTTP response headers after 523.8815ms - 200
+2025-08-05 18:59:16.115 +02:00 [INF] End processing HTTP request after 533.4505ms - 200
+2025-08-05 18:59:16.183 +02:00 [INF] Received HTTP response headers after 574.777ms - 200
+2025-08-05 18:59:16.186 +02:00 [INF] End processing HTTP request after 583.859ms - 200
+2025-08-05 18:59:16.224 +02:00 [INF] Executing OkObjectResult, writing value of type 'MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesResponse'.
+2025-08-05 18:59:16.262 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api) in 1452.6429ms
+2025-08-05 18:59:16.267 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 18:59:16.270 +02:00 [INF] HTTP GET /Movie/Movies responded 200 in 1506 ms
+2025-08-05 18:59:16.273 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/Movies - 200 null application/json; charset=utf-8 1518.1871ms
+2025-08-05 18:59:33.598 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/Movies - null null
+2025-08-05 18:59:33.606 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 18:59:33.608 +02:00 [INF] Route matched with {action = "GetMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovies(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 18:59:46.530 +02:00 [ERR] Failed to get cache item with key: discover_movies:1:popularity.desc:en-US:False:False
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MovieAndSeriesScanner.Common.Api.Dto.MovieWithVideoResult..ctor(DiscoverMovieResult movie) in C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\Dto\DiscoverMoviesResponse.cs:line 16
+   at Void .ctor(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMovieResult)(Object[])
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObjectUsingCreatorWithParameters(JsonReader reader, JsonObjectContract contract, JsonProperty containerProperty, ObjectConstructor`1 creator, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MovieAndSeriesScanner.Services.Api.ServiceProviders.CacheService.GetItem[T](String key)
+2025-08-05 18:59:46.580 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/discover/movie?*
+2025-08-05 18:59:46.583 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/discover/movie?*
+2025-08-05 18:59:46.614 +02:00 [INF] Received HTTP response headers after 29.8201ms - 200
+2025-08-05 18:59:46.617 +02:00 [INF] End processing HTTP request after 37.3836ms - 200
+2025-08-05 18:59:46.620 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/755898/videos
+2025-08-05 18:59:46.622 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/755898/videos
+2025-08-05 18:59:46.626 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/986206/videos
+2025-08-05 18:59:46.631 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/986206/videos
+2025-08-05 18:59:46.638 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1087192/videos
+2025-08-05 18:59:46.640 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1087192/videos
+2025-08-05 18:59:46.641 +02:00 [INF] Received HTTP response headers after 16.8597ms - 200
+2025-08-05 18:59:46.645 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1100988/videos
+2025-08-05 18:59:46.646 +02:00 [INF] End processing HTTP request after 25.9949ms - 200
+2025-08-05 18:59:46.649 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1100988/videos
+2025-08-05 18:59:46.655 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1311031/videos
+2025-08-05 18:59:46.661 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1311031/videos
+2025-08-05 18:59:46.668 +02:00 [INF] Received HTTP response headers after 32.2651ms - 200
+2025-08-05 18:59:46.668 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/715253/videos
+2025-08-05 18:59:46.670 +02:00 [INF] End processing HTTP request after 44.6024ms - 200
+2025-08-05 18:59:46.674 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/715253/videos
+2025-08-05 18:59:46.681 +02:00 [INF] Received HTTP response headers after 15.077ms - 200
+2025-08-05 18:59:46.681 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1071585/videos
+2025-08-05 18:59:46.683 +02:00 [INF] End processing HTTP request after 27.8491ms - 200
+2025-08-05 18:59:46.684 +02:00 [INF] Received HTTP response headers after 30.8464ms - 200
+2025-08-05 18:59:46.686 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1071585/videos
+2025-08-05 18:59:46.692 +02:00 [INF] End processing HTTP request after 47.454ms - 200
+2025-08-05 18:59:46.693 +02:00 [INF] Received HTTP response headers after 15.3115ms - 200
+2025-08-05 18:59:46.699 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/552524/videos
+2025-08-05 18:59:46.698 +02:00 [INF] Received HTTP response headers after 54.9472ms - 200
+2025-08-05 18:59:46.709 +02:00 [INF] Received HTTP response headers after 13.3797ms - 200
+2025-08-05 18:59:46.710 +02:00 [INF] End processing HTTP request after 41.6508ms - 200
+2025-08-05 18:59:46.714 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/552524/videos
+2025-08-05 18:59:46.716 +02:00 [INF] End processing HTTP request after 78.0235ms - 200
+2025-08-05 18:59:46.717 +02:00 [INF] End processing HTTP request after 36.4418ms - 200
+2025-08-05 18:59:46.724 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1263256/videos
+2025-08-05 18:59:46.728 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1263256/videos
+2025-08-05 18:59:46.732 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/617126/videos
+2025-08-05 18:59:46.735 +02:00 [INF] Received HTTP response headers after 13.7743ms - 200
+2025-08-05 18:59:46.736 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/617126/videos
+2025-08-05 18:59:46.738 +02:00 [INF] End processing HTTP request after 39.5488ms - 200
+2025-08-05 18:59:46.743 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1181540/videos
+2025-08-05 18:59:46.744 +02:00 [INF] Received HTTP response headers after 13.6565ms - 200
+2025-08-05 18:59:46.747 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1181540/videos
+2025-08-05 18:59:46.752 +02:00 [INF] End processing HTTP request after 27.9558ms - 200
+2025-08-05 18:59:46.758 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/980477/videos
+2025-08-05 18:59:46.767 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/980477/videos
+2025-08-05 18:59:46.770 +02:00 [INF] Received HTTP response headers after 14.2585ms - 200
+2025-08-05 18:59:46.773 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1119878/videos
+2025-08-05 18:59:46.773 +02:00 [INF] Received HTTP response headers after 32.4297ms - 200
+2025-08-05 18:59:46.774 +02:00 [INF] End processing HTTP request after 31.6682ms - 200
+2025-08-05 18:59:46.776 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1119878/videos
+2025-08-05 18:59:46.778 +02:00 [INF] End processing HTTP request after 46.1596ms - 200
+2025-08-05 18:59:46.785 +02:00 [INF] Received HTTP response headers after 14.6282ms - 200
+2025-08-05 18:59:46.787 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1061474/videos
+2025-08-05 18:59:46.790 +02:00 [INF] End processing HTTP request after 31.7122ms - 200
+2025-08-05 18:59:46.792 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1061474/videos
+2025-08-05 18:59:46.799 +02:00 [INF] Received HTTP response headers after 14.5964ms - 200
+2025-08-05 18:59:46.801 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1011477/videos
+2025-08-05 18:59:46.803 +02:00 [INF] End processing HTTP request after 30.3814ms - 200
+2025-08-05 18:59:46.805 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1011477/videos
+2025-08-05 18:59:46.813 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1234821/videos
+2025-08-05 18:59:46.814 +02:00 [INF] Received HTTP response headers after 15.6326ms - 200
+2025-08-05 18:59:46.816 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1234821/videos
+2025-08-05 18:59:46.819 +02:00 [INF] End processing HTTP request after 32.0512ms - 200
+2025-08-05 18:59:46.823 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1124619/videos
+2025-08-05 18:59:46.825 +02:00 [INF] Received HTTP response headers after 15.1571ms - 200
+2025-08-05 18:59:46.829 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1124619/videos
+2025-08-05 18:59:46.831 +02:00 [INF] End processing HTTP request after 30.4947ms - 200
+2025-08-05 18:59:46.836 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1307078/videos
+2025-08-05 18:59:46.837 +02:00 [INF] Received HTTP response headers after 16.593ms - 200
+2025-08-05 18:59:46.840 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1307078/videos
+2025-08-05 18:59:46.845 +02:00 [INF] End processing HTTP request after 31.741ms - 200
+2025-08-05 18:59:46.848 +02:00 [INF] Received HTTP response headers after 14.3543ms - 200
+2025-08-05 18:59:46.852 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/541671/videos
+2025-08-05 18:59:46.859 +02:00 [INF] End processing HTTP request after 35.6703ms - 200
+2025-08-05 18:59:46.862 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/541671/videos
+2025-08-05 18:59:46.870 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/803796/videos
+2025-08-05 18:59:46.875 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/803796/videos
+2025-08-05 18:59:46.878 +02:00 [INF] Received HTTP response headers after 28.5419ms - 200
+2025-08-05 18:59:46.882 +02:00 [INF] Received HTTP response headers after 14.4268ms - 200
+2025-08-05 18:59:46.887 +02:00 [INF] End processing HTTP request after 50.3556ms - 200
+2025-08-05 18:59:46.892 +02:00 [INF] End processing HTTP request after 39.5348ms - 200
+2025-08-05 18:59:46.897 +02:00 [INF] Received HTTP response headers after 14.9816ms - 200
+2025-08-05 18:59:46.900 +02:00 [INF] End processing HTTP request after 30.2213ms - 200
+2025-08-05 18:59:46.910 +02:00 [INF] Executing OkObjectResult, writing value of type 'MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesResponse'.
+2025-08-05 18:59:46.914 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api) in 13302.8926ms
+2025-08-05 18:59:46.918 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 18:59:46.925 +02:00 [INF] HTTP GET /Movie/Movies responded 200 in 13319 ms
+2025-08-05 18:59:46.932 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/Movies - 200 null application/json; charset=utf-8 13334.1131ms
+2025-08-05 18:59:57.185 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/Movies - null null
+2025-08-05 18:59:57.200 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 18:59:57.205 +02:00 [INF] Route matched with {action = "GetMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovies(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:00:41.331 +02:00 [ERR] Failed to get cache item with key: discover_movies:1:popularity.desc:en-US:False:False
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MovieAndSeriesScanner.Common.Api.Dto.MovieWithVideoResult..ctor(DiscoverMovieResult movie) in C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\Dto\DiscoverMoviesResponse.cs:line 16
+   at Void .ctor(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMovieResult)(Object[])
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObjectUsingCreatorWithParameters(JsonReader reader, JsonObjectContract contract, JsonProperty containerProperty, ObjectConstructor`1 creator, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MovieAndSeriesScanner.Services.Api.ServiceProviders.CacheService.GetItem[T](String key)
+2025-08-05 19:00:41.398 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/discover/movie?*
+2025-08-05 19:00:41.400 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/discover/movie?*
+2025-08-05 19:00:41.416 +02:00 [INF] Received HTTP response headers after 13.8929ms - 200
+2025-08-05 19:00:41.418 +02:00 [INF] End processing HTTP request after 19.8807ms - 200
+2025-08-05 19:00:41.423 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/755898/videos
+2025-08-05 19:00:41.425 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/755898/videos
+2025-08-05 19:00:41.429 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/986206/videos
+2025-08-05 19:00:41.431 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/986206/videos
+2025-08-05 19:00:41.439 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1087192/videos
+2025-08-05 19:00:41.441 +02:00 [INF] Received HTTP response headers after 14.0989ms - 200
+2025-08-05 19:00:41.442 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1087192/videos
+2025-08-05 19:00:41.444 +02:00 [INF] End processing HTTP request after 20.5506ms - 200
+2025-08-05 19:00:41.447 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1100988/videos
+2025-08-05 19:00:41.451 +02:00 [INF] Received HTTP response headers after 13.4242ms - 200
+2025-08-05 19:00:41.453 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1100988/videos
+2025-08-05 19:00:41.456 +02:00 [INF] End processing HTTP request after 27.0059ms - 200
+2025-08-05 19:00:41.461 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1311031/videos
+2025-08-05 19:00:41.462 +02:00 [INF] Received HTTP response headers after 16.6014ms - 200
+2025-08-05 19:00:41.464 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1311031/videos
+2025-08-05 19:00:41.468 +02:00 [INF] End processing HTTP request after 28.6358ms - 200
+2025-08-05 19:00:41.474 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/715253/videos
+2025-08-05 19:00:41.474 +02:00 [INF] Received HTTP response headers after 15.0064ms - 200
+2025-08-05 19:00:41.476 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/715253/videos
+2025-08-05 19:00:41.478 +02:00 [INF] End processing HTTP request after 30.4515ms - 200
+2025-08-05 19:00:41.482 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1071585/videos
+2025-08-05 19:00:41.486 +02:00 [INF] Received HTTP response headers after 15.2984ms - 200
+2025-08-05 19:00:41.486 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1071585/videos
+2025-08-05 19:00:41.488 +02:00 [INF] End processing HTTP request after 27.1546ms - 200
+2025-08-05 19:00:41.492 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/552524/videos
+2025-08-05 19:00:41.495 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/552524/videos
+2025-08-05 19:00:41.496 +02:00 [INF] Received HTTP response headers after 16.3722ms - 200
+2025-08-05 19:00:41.500 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1263256/videos
+2025-08-05 19:00:41.501 +02:00 [INF] End processing HTTP request after 27.7818ms - 200
+2025-08-05 19:00:41.504 +02:00 [INF] Received HTTP response headers after 13.8737ms - 200
+2025-08-05 19:00:41.504 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1263256/videos
+2025-08-05 19:00:41.508 +02:00 [INF] End processing HTTP request after 26.0422ms - 200
+2025-08-05 19:00:41.511 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/617126/videos
+2025-08-05 19:00:41.514 +02:00 [INF] Received HTTP response headers after 16.4748ms - 200
+2025-08-05 19:00:41.520 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/617126/videos
+2025-08-05 19:00:41.521 +02:00 [INF] End processing HTTP request after 29.1746ms - 200
+2025-08-05 19:00:41.523 +02:00 [INF] Received HTTP response headers after 13.297ms - 200
+2025-08-05 19:00:41.525 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1181540/videos
+2025-08-05 19:00:41.530 +02:00 [INF] End processing HTTP request after 29.7322ms - 200
+2025-08-05 19:00:41.532 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1181540/videos
+2025-08-05 19:00:41.541 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/980477/videos
+2025-08-05 19:00:41.541 +02:00 [INF] Received HTTP response headers after 18.3782ms - 200
+2025-08-05 19:00:41.546 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/980477/videos
+2025-08-05 19:00:41.548 +02:00 [INF] End processing HTTP request after 36.7014ms - 200
+2025-08-05 19:00:41.552 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1119878/videos
+2025-08-05 19:00:41.555 +02:00 [INF] Received HTTP response headers after 16.9948ms - 200
+2025-08-05 19:00:41.555 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1119878/videos
+2025-08-05 19:00:41.557 +02:00 [INF] End processing HTTP request after 31.5393ms - 200
+2025-08-05 19:00:41.561 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1061474/videos
+2025-08-05 19:00:41.564 +02:00 [INF] Received HTTP response headers after 13.9514ms - 200
+2025-08-05 19:00:41.565 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1061474/videos
+2025-08-05 19:00:41.567 +02:00 [INF] End processing HTTP request after 25.7135ms - 200
+2025-08-05 19:00:41.571 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1011477/videos
+2025-08-05 19:00:41.572 +02:00 [INF] Received HTTP response headers after 13.0886ms - 200
+2025-08-05 19:00:41.577 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1011477/videos
+2025-08-05 19:00:41.579 +02:00 [INF] End processing HTTP request after 26.7536ms - 200
+2025-08-05 19:00:41.583 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1234821/videos
+2025-08-05 19:00:41.584 +02:00 [INF] Received HTTP response headers after 14.6063ms - 200
+2025-08-05 19:00:41.586 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1234821/videos
+2025-08-05 19:00:41.588 +02:00 [INF] End processing HTTP request after 27.411ms - 200
+2025-08-05 19:00:41.594 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1124619/videos
+2025-08-05 19:00:41.594 +02:00 [INF] Received HTTP response headers after 13.311ms - 200
+2025-08-05 19:00:41.597 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1124619/videos
+2025-08-05 19:00:41.599 +02:00 [INF] End processing HTTP request after 27.3986ms - 200
+2025-08-05 19:00:41.603 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1307078/videos
+2025-08-05 19:00:41.605 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1307078/videos
+2025-08-05 19:00:41.607 +02:00 [INF] Received HTTP response headers after 15.0563ms - 200
+2025-08-05 19:00:41.611 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/541671/videos
+2025-08-05 19:00:41.612 +02:00 [INF] End processing HTTP request after 28.8654ms - 200
+2025-08-05 19:00:41.614 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/541671/videos
+2025-08-05 19:00:41.616 +02:00 [INF] Received HTTP response headers after 15.5448ms - 200
+2025-08-05 19:00:41.620 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/803796/videos
+2025-08-05 19:00:41.621 +02:00 [INF] End processing HTTP request after 27.1385ms - 200
+2025-08-05 19:00:41.623 +02:00 [INF] Received HTTP response headers after 13.3681ms - 200
+2025-08-05 19:00:41.625 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/803796/videos
+2025-08-05 19:00:41.629 +02:00 [INF] End processing HTTP request after 26.0378ms - 200
+2025-08-05 19:00:41.632 +02:00 [INF] Received HTTP response headers after 14.1623ms - 200
+2025-08-05 19:00:41.636 +02:00 [INF] End processing HTTP request after 24.3488ms - 200
+2025-08-05 19:00:41.644 +02:00 [INF] Received HTTP response headers after 14.2794ms - 200
+2025-08-05 19:00:41.646 +02:00 [INF] End processing HTTP request after 26.105ms - 200
+2025-08-05 19:00:41.649 +02:00 [INF] Executing OkObjectResult, writing value of type 'MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesResponse'.
+2025-08-05 19:00:41.652 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api) in 44422.745ms
+2025-08-05 19:00:41.657 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:00:41.659 +02:00 [INF] HTTP GET /Movie/Movies responded 200 in 44459 ms
+2025-08-05 19:00:41.662 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/Movies - 200 null application/json; charset=utf-8 44478.0188ms
+2025-08-05 19:00:56.840 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/Movies - null null
+2025-08-05 19:00:56.853 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:00:56.862 +02:00 [INF] Route matched with {action = "GetMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovies(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:01:03.873 +02:00 [ERR] Failed to get cache item with key: discover_movies:1:popularity.desc:en-US:False:False
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MovieAndSeriesScanner.Common.Api.Dto.MovieWithVideoResult..ctor(DiscoverMovieResult movie) in C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\Dto\DiscoverMoviesResponse.cs:line 16
+   at Void .ctor(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMovieResult)(Object[])
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObjectUsingCreatorWithParameters(JsonReader reader, JsonObjectContract contract, JsonProperty containerProperty, ObjectConstructor`1 creator, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MovieAndSeriesScanner.Services.Api.ServiceProviders.CacheService.GetItem[T](String key)
+2025-08-05 19:01:03.900 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/discover/movie?*
+2025-08-05 19:01:03.903 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/discover/movie?*
+2025-08-05 19:01:03.919 +02:00 [INF] Received HTTP response headers after 13.6495ms - 200
+2025-08-05 19:01:03.921 +02:00 [INF] End processing HTTP request after 20.9375ms - 200
+2025-08-05 19:01:03.925 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/755898/videos
+2025-08-05 19:01:03.929 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/755898/videos
+2025-08-05 19:01:03.937 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/986206/videos
+2025-08-05 19:01:03.939 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/986206/videos
+2025-08-05 19:01:03.946 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1087192/videos
+2025-08-05 19:01:03.948 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1087192/videos
+2025-08-05 19:01:03.949 +02:00 [INF] Received HTTP response headers after 13.8665ms - 200
+2025-08-05 19:01:03.952 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1100988/videos
+2025-08-05 19:01:03.953 +02:00 [INF] End processing HTTP request after 28.5566ms - 200
+2025-08-05 19:01:03.955 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1100988/videos
+2025-08-05 19:01:03.957 +02:00 [INF] Received HTTP response headers after 12.5757ms - 200
+2025-08-05 19:01:03.961 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1311031/videos
+2025-08-05 19:01:03.962 +02:00 [INF] End processing HTTP request after 25.0801ms - 200
+2025-08-05 19:01:03.964 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1311031/videos
+2025-08-05 19:01:03.965 +02:00 [INF] Received HTTP response headers after 14.7509ms - 200
+2025-08-05 19:01:03.970 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/715253/videos
+2025-08-05 19:01:03.971 +02:00 [INF] End processing HTTP request after 25.283ms - 200
+2025-08-05 19:01:03.973 +02:00 [INF] Received HTTP response headers after 13.4149ms - 200
+2025-08-05 19:01:03.976 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/715253/videos
+2025-08-05 19:01:03.981 +02:00 [INF] Received HTTP response headers after 12.9527ms - 200
+2025-08-05 19:01:03.984 +02:00 [INF] End processing HTTP request after 31.8599ms - 200
+2025-08-05 19:01:03.989 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1071585/videos
+2025-08-05 19:01:03.991 +02:00 [INF] End processing HTTP request after 29.9616ms - 200
+2025-08-05 19:01:03.996 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1071585/videos
+2025-08-05 19:01:04.001 +02:00 [INF] Received HTTP response headers after 14.6951ms - 200
+2025-08-05 19:01:04.004 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/552524/videos
+2025-08-05 19:01:04.006 +02:00 [INF] End processing HTTP request after 36.3248ms - 200
+2025-08-05 19:01:04.008 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/552524/videos
+2025-08-05 19:01:04.015 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1263256/videos
+2025-08-05 19:01:04.017 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1263256/videos
+2025-08-05 19:01:04.017 +02:00 [INF] Received HTTP response headers after 14.6573ms - 200
+2025-08-05 19:01:04.024 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/617126/videos
+2025-08-05 19:01:04.025 +02:00 [INF] End processing HTTP request after 36.6448ms - 200
+2025-08-05 19:01:04.028 +02:00 [INF] Received HTTP response headers after 15.7172ms - 200
+2025-08-05 19:01:04.029 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/617126/videos
+2025-08-05 19:01:04.035 +02:00 [INF] End processing HTTP request after 30.9661ms - 200
+2025-08-05 19:01:04.036 +02:00 [INF] Received HTTP response headers after 14.8306ms - 200
+2025-08-05 19:01:04.040 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1181540/videos
+2025-08-05 19:01:04.042 +02:00 [INF] End processing HTTP request after 27.9127ms - 200
+2025-08-05 19:01:04.044 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1181540/videos
+2025-08-05 19:01:04.051 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/980477/videos
+2025-08-05 19:01:04.051 +02:00 [INF] Received HTTP response headers after 13.8368ms - 200
+2025-08-05 19:01:04.055 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/980477/videos
+2025-08-05 19:01:04.058 +02:00 [INF] End processing HTTP request after 33.8414ms - 200
+2025-08-05 19:01:04.062 +02:00 [INF] Received HTTP response headers after 14.045ms - 200
+2025-08-05 19:01:04.063 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1119878/videos
+2025-08-05 19:01:04.071 +02:00 [INF] End processing HTTP request after 31.7956ms - 200
+2025-08-05 19:01:04.074 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1119878/videos
+2025-08-05 19:01:04.074 +02:00 [INF] Received HTTP response headers after 13.4388ms - 200
+2025-08-05 19:01:04.082 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1061474/videos
+2025-08-05 19:01:04.092 +02:00 [INF] End processing HTTP request after 40.7147ms - 200
+2025-08-05 19:01:04.094 +02:00 [INF] Received HTTP response headers after 15.5203ms - 200
+2025-08-05 19:01:04.095 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1061474/videos
+2025-08-05 19:01:04.100 +02:00 [INF] End processing HTTP request after 36.286ms - 200
+2025-08-05 19:01:04.105 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1011477/videos
+2025-08-05 19:01:04.108 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1011477/videos
+2025-08-05 19:01:04.115 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1234821/videos
+2025-08-05 19:01:04.118 +02:00 [INF] Received HTTP response headers after 15.6187ms - 200
+2025-08-05 19:01:04.119 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1234821/videos
+2025-08-05 19:01:04.121 +02:00 [INF] End processing HTTP request after 39.4707ms - 200
+2025-08-05 19:01:04.125 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1124619/videos
+2025-08-05 19:01:04.128 +02:00 [INF] Received HTTP response headers after 15.4474ms - 200
+2025-08-05 19:01:04.130 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1124619/videos
+2025-08-05 19:01:04.132 +02:00 [INF] End processing HTTP request after 26.7008ms - 200
+2025-08-05 19:01:04.136 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1307078/videos
+2025-08-05 19:01:04.139 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1307078/videos
+2025-08-05 19:01:04.140 +02:00 [INF] Received HTTP response headers after 16.9637ms - 200
+2025-08-05 19:01:04.146 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/541671/videos
+2025-08-05 19:01:04.148 +02:00 [INF] End processing HTTP request after 32.896ms - 200
+2025-08-05 19:01:04.149 +02:00 [INF] Received HTTP response headers after 14.997ms - 200
+2025-08-05 19:01:04.151 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/541671/videos
+2025-08-05 19:01:04.157 +02:00 [INF] End processing HTTP request after 31.7089ms - 200
+2025-08-05 19:01:04.157 +02:00 [INF] Received HTTP response headers after 14.2333ms - 200
+2025-08-05 19:01:04.162 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/803796/videos
+2025-08-05 19:01:04.165 +02:00 [INF] End processing HTTP request after 29.301ms - 200
+2025-08-05 19:01:04.168 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/803796/videos
+2025-08-05 19:01:04.177 +02:00 [INF] Received HTTP response headers after 17.0873ms - 200
+2025-08-05 19:01:04.182 +02:00 [INF] End processing HTTP request after 36.3283ms - 200
+2025-08-05 19:01:04.189 +02:00 [INF] Received HTTP response headers after 14.9654ms - 200
+2025-08-05 19:01:04.191 +02:00 [INF] End processing HTTP request after 29.0321ms - 200
+2025-08-05 19:01:04.194 +02:00 [INF] Executing OkObjectResult, writing value of type 'MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesResponse'.
+2025-08-05 19:01:04.198 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api) in 7328.6346ms
+2025-08-05 19:01:04.201 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:01:04.207 +02:00 [INF] HTTP GET /Movie/Movies responded 200 in 7354 ms
+2025-08-05 19:01:04.211 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/Movies - 200 null application/json; charset=utf-8 7372.2359ms
+2025-08-05 19:02:54.338 +02:00 [INF] Now listening on: https://localhost:7260
+2025-08-05 19:02:54.419 +02:00 [INF] Now listening on: http://localhost:5296
+2025-08-05 19:02:54.427 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-05 19:02:54.429 +02:00 [INF] Hosting environment: Development
+2025-08-05 19:02:54.431 +02:00 [INF] Content root path: C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Api
+2025-08-05 19:02:55.225 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2025-08-05 19:02:55.534 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 114 ms
+2025-08-05 19:02:55.559 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 348.6676ms
+2025-08-05 19:02:55.603 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-05 19:02:55.629 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 26.7035ms
+2025-08-05 19:02:55.957 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2025-08-05 19:02:56.024 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.3241ms
+2025-08-05 19:02:56.077 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2025-08-05 19:02:56.194 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 108 ms
+2025-08-05 19:02:56.199 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 122.7294ms
+2025-08-05 19:03:02.191 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/Movies - null null
+2025-08-05 19:03:02.202 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:03:02.234 +02:00 [INF] Route matched with {action = "GetMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovies(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:03:03.879 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/discover/movie?*
+2025-08-05 19:03:03.886 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/discover/movie?*
+2025-08-05 19:03:04.018 +02:00 [INF] Received HTTP response headers after 125.6242ms - 200
+2025-08-05 19:03:04.023 +02:00 [INF] End processing HTTP request after 147.1537ms - 200
+2025-08-05 19:03:04.201 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/755898/videos
+2025-08-05 19:03:04.203 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/755898/videos
+2025-08-05 19:03:04.209 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/986206/videos
+2025-08-05 19:03:04.210 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/986206/videos
+2025-08-05 19:03:04.218 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1087192/videos
+2025-08-05 19:03:04.222 +02:00 [INF] Received HTTP response headers after 17.3878ms - 200
+2025-08-05 19:03:04.224 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1087192/videos
+2025-08-05 19:03:04.225 +02:00 [INF] End processing HTTP request after 24.7279ms - 200
+2025-08-05 19:03:04.232 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1100988/videos
+2025-08-05 19:03:04.242 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1100988/videos
+2025-08-05 19:03:04.251 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1311031/videos
+2025-08-05 19:03:04.253 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1311031/videos
+2025-08-05 19:03:04.255 +02:00 [INF] Received HTTP response headers after 39.8763ms - 200
+2025-08-05 19:03:04.259 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/715253/videos
+2025-08-05 19:03:04.261 +02:00 [INF] End processing HTTP request after 52.5331ms - 200
+2025-08-05 19:03:04.263 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/715253/videos
+2025-08-05 19:03:04.270 +02:00 [INF] Received HTTP response headers after 40.4514ms - 200
+2025-08-05 19:03:04.272 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1071585/videos
+2025-08-05 19:03:04.277 +02:00 [INF] End processing HTTP request after 58.7743ms - 200
+2025-08-05 19:03:04.279 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1071585/videos
+2025-08-05 19:03:04.283 +02:00 [INF] Received HTTP response headers after 27.0599ms - 200
+2025-08-05 19:03:04.293 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/552524/videos
+2025-08-05 19:03:04.280 +02:00 [INF] Received HTTP response headers after 31.8155ms - 200
+2025-08-05 19:03:04.295 +02:00 [INF] End processing HTTP request after 44.5232ms - 200
+2025-08-05 19:03:04.298 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/552524/videos
+2025-08-05 19:03:04.300 +02:00 [INF] End processing HTTP request after 67.5915ms - 200
+2025-08-05 19:03:04.300 +02:00 [INF] Received HTTP response headers after 29.8976ms - 200
+2025-08-05 19:03:04.307 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1263256/videos
+2025-08-05 19:03:04.308 +02:00 [INF] Received HTTP response headers after 17.2037ms - 200
+2025-08-05 19:03:04.312 +02:00 [INF] End processing HTTP request after 52.8381ms - 200
+2025-08-05 19:03:04.314 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1263256/videos
+2025-08-05 19:03:04.316 +02:00 [INF] End processing HTTP request after 43.4173ms - 200
+2025-08-05 19:03:04.319 +02:00 [INF] Received HTTP response headers after 14.9053ms - 200
+2025-08-05 19:03:04.325 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/617126/videos
+2025-08-05 19:03:04.328 +02:00 [INF] End processing HTTP request after 35.2255ms - 200
+2025-08-05 19:03:04.331 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/617126/videos
+2025-08-05 19:03:04.339 +02:00 [INF] Received HTTP response headers after 17.1868ms - 200
+2025-08-05 19:03:04.345 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1181540/videos
+2025-08-05 19:03:04.348 +02:00 [INF] End processing HTTP request after 40.4741ms - 200
+2025-08-05 19:03:04.354 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1181540/videos
+2025-08-05 19:03:04.356 +02:00 [INF] Received HTTP response headers after 14.3755ms - 200
+2025-08-05 19:03:04.362 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/980477/videos
+2025-08-05 19:03:04.364 +02:00 [INF] End processing HTTP request after 38.8901ms - 200
+2025-08-05 19:03:04.367 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/980477/videos
+2025-08-05 19:03:04.374 +02:00 [INF] Received HTTP response headers after 14.4253ms - 200
+2025-08-05 19:03:04.376 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1119878/videos
+2025-08-05 19:03:04.377 +02:00 [INF] End processing HTTP request after 32.6013ms - 200
+2025-08-05 19:03:04.380 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1119878/videos
+2025-08-05 19:03:04.389 +02:00 [INF] Received HTTP response headers after 15.3004ms - 200
+2025-08-05 19:03:04.390 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1061474/videos
+2025-08-05 19:03:04.392 +02:00 [INF] End processing HTTP request after 29.6261ms - 200
+2025-08-05 19:03:04.394 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1061474/videos
+2025-08-05 19:03:04.400 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1011477/videos
+2025-08-05 19:03:04.402 +02:00 [INF] Received HTTP response headers after 15.442ms - 200
+2025-08-05 19:03:04.403 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1011477/videos
+2025-08-05 19:03:04.405 +02:00 [INF] End processing HTTP request after 29.42ms - 200
+2025-08-05 19:03:04.410 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1234821/videos
+2025-08-05 19:03:04.412 +02:00 [INF] Received HTTP response headers after 14.1088ms - 200
+2025-08-05 19:03:04.413 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1234821/videos
+2025-08-05 19:03:04.416 +02:00 [INF] End processing HTTP request after 26.5862ms - 200
+2025-08-05 19:03:04.420 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1124619/videos
+2025-08-05 19:03:04.421 +02:00 [INF] Received HTTP response headers after 13.5266ms - 200
+2025-08-05 19:03:04.424 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1124619/videos
+2025-08-05 19:03:04.426 +02:00 [INF] End processing HTTP request after 25.6368ms - 200
+2025-08-05 19:03:04.430 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/1307078/videos
+2025-08-05 19:03:04.432 +02:00 [INF] Received HTTP response headers after 13.6584ms - 200
+2025-08-05 19:03:04.434 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/1307078/videos
+2025-08-05 19:03:04.436 +02:00 [INF] End processing HTTP request after 25.9114ms - 200
+2025-08-05 19:03:04.439 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/541671/videos
+2025-08-05 19:03:04.442 +02:00 [INF] Received HTTP response headers after 14.144ms - 200
+2025-08-05 19:03:04.442 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/541671/videos
+2025-08-05 19:03:04.446 +02:00 [INF] End processing HTTP request after 25.4851ms - 200
+2025-08-05 19:03:04.453 +02:00 [INF] Received HTTP response headers after 15.4114ms - 200
+2025-08-05 19:03:04.453 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/movie/803796/videos
+2025-08-05 19:03:04.456 +02:00 [INF] End processing HTTP request after 26.5973ms - 200
+2025-08-05 19:03:04.458 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/movie/803796/videos
+2025-08-05 19:03:04.465 +02:00 [INF] Received HTTP response headers after 14.3576ms - 200
+2025-08-05 19:03:04.467 +02:00 [INF] End processing HTTP request after 27.7683ms - 200
+2025-08-05 19:03:04.480 +02:00 [INF] Received HTTP response headers after 17.043ms - 200
+2025-08-05 19:03:04.483 +02:00 [INF] End processing HTTP request after 29.7542ms - 200
+2025-08-05 19:03:04.521 +02:00 [INF] Executing OkObjectResult, writing value of type 'MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesResponse'.
+2025-08-05 19:03:04.561 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api) in 2319.5063ms
+2025-08-05 19:03:04.570 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:03:04.579 +02:00 [INF] HTTP GET /Movie/Movies responded 200 in 2379 ms
+2025-08-05 19:03:04.589 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/Movies - 200 null application/json; charset=utf-8 2397.9128ms
+2025-08-05 19:03:06.485 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/Movies - null null
+2025-08-05 19:03:06.495 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:03:06.497 +02:00 [INF] Route matched with {action = "GetMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovies(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:03:10.212 +02:00 [INF] Executing OkObjectResult, writing value of type 'MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesResponse'.
+2025-08-05 19:03:10.218 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api) in 3718.4631ms
+2025-08-05 19:03:10.223 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:03:10.225 +02:00 [INF] HTTP GET /Movie/Movies responded 200 in 3730 ms
+2025-08-05 19:03:10.227 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/Movies - 200 null application/json; charset=utf-8 3742.2977ms
+2025-08-05 19:03:13.383 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/Movies - null null
+2025-08-05 19:03:13.393 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:03:13.401 +02:00 [INF] Route matched with {action = "GetMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovies(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:03:13.409 +02:00 [INF] Executing OkObjectResult, writing value of type 'MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesResponse'.
+2025-08-05 19:03:13.415 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api) in 7.7829ms
+2025-08-05 19:03:13.418 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:03:13.420 +02:00 [INF] HTTP GET /Movie/Movies responded 200 in 27 ms
+2025-08-05 19:03:13.424 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/Movies - 200 null application/json; charset=utf-8 41.0946ms
+2025-08-05 19:03:15.092 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/Movies - null null
+2025-08-05 19:03:15.099 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:03:15.101 +02:00 [INF] Route matched with {action = "GetMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovies(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:03:15.106 +02:00 [INF] Executing OkObjectResult, writing value of type 'MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesResponse'.
+2025-08-05 19:03:15.111 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api) in 5.0665ms
+2025-08-05 19:03:15.116 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:03:15.118 +02:00 [INF] HTTP GET /Movie/Movies responded 200 in 19 ms
+2025-08-05 19:03:15.124 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/Movies - 200 null application/json; charset=utf-8 32.1852ms
+2025-08-05 19:03:39.957 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - null null
+2025-08-05 19:03:39.968 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:03:39.977 +02:00 [INF] Route matched with {action = "SearchMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovies(MovieAndSeriesScanner.Common.Api.Dto.SearchMovieParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:03:40.001 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-08-05 19:03:40.024 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api) in 42.7441ms
+2025-08-05 19:03:40.032 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:03:40.037 +02:00 [INF] HTTP GET /Movie/SearchMovies?query=War%20of%20the%20Worlds responded 400 in 68 ms
+2025-08-05 19:03:40.044 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - 400 null application/problem+json; charset=utf-8 87.8731ms
+2025-08-05 19:10:43.525 +02:00 [INF] Now listening on: https://localhost:7260
+2025-08-05 19:10:43.564 +02:00 [INF] Now listening on: http://localhost:5296
+2025-08-05 19:10:43.569 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-05 19:10:43.573 +02:00 [INF] Hosting environment: Development
+2025-08-05 19:10:43.575 +02:00 [INF] Content root path: C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Api
+2025-08-05 19:10:44.436 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2025-08-05 19:10:45.053 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 243 ms
+2025-08-05 19:10:45.075 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 659.1165ms
+2025-08-05 19:10:45.113 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-05 19:10:45.134 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 20.5093ms
+2025-08-05 19:10:45.511 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2025-08-05 19:10:45.586 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.9557ms
+2025-08-05 19:10:45.635 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2025-08-05 19:10:45.767 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 123 ms
+2025-08-05 19:10:45.774 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 139.3539ms
+2025-08-05 19:10:58.971 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - null null
+2025-08-05 19:10:58.986 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:10:59.013 +02:00 [INF] Route matched with {action = "SearchMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovies(MovieAndSeriesScanner.Common.Api.Dto.SearchMovieParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:10:59.069 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-08-05 19:10:59.098 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api) in 77.5197ms
+2025-08-05 19:10:59.102 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:10:59.109 +02:00 [INF] HTTP GET /Movie/SearchMovies?query=War%20of%20the%20Worlds responded 400 in 126 ms
+2025-08-05 19:10:59.112 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - 400 null application/problem+json; charset=utf-8 141.1639ms
+2025-08-05 19:11:27.781 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - null null
+2025-08-05 19:11:27.798 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:11:27.800 +02:00 [INF] Route matched with {action = "SearchMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovies(MovieAndSeriesScanner.Common.Api.Dto.SearchMovieParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:11:27.808 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-08-05 19:11:27.811 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api) in 5.0426ms
+2025-08-05 19:11:27.814 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:11:27.818 +02:00 [INF] HTTP GET /Movie/SearchMovies?query=War%20of%20the%20Worlds responded 400 in 20 ms
+2025-08-05 19:11:27.824 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - 400 null application/problem+json; charset=utf-8 43.4154ms
+2025-08-05 19:11:28.905 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - null null
+2025-08-05 19:11:28.911 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:11:28.913 +02:00 [INF] Route matched with {action = "SearchMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovies(MovieAndSeriesScanner.Common.Api.Dto.SearchMovieParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:11:28.917 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-08-05 19:11:28.920 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api) in 3.7077ms
+2025-08-05 19:11:28.922 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:11:28.926 +02:00 [INF] HTTP GET /Movie/SearchMovies?query=War%20of%20the%20Worlds responded 400 in 14 ms
+2025-08-05 19:11:28.929 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - 400 null application/problem+json; charset=utf-8 24.9989ms
+2025-08-05 19:11:29.322 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - null null
+2025-08-05 19:11:29.330 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:11:29.333 +02:00 [INF] Route matched with {action = "SearchMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovies(MovieAndSeriesScanner.Common.Api.Dto.SearchMovieParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:11:29.338 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-08-05 19:11:29.344 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api) in 6.0834ms
+2025-08-05 19:11:29.347 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:11:29.349 +02:00 [INF] HTTP GET /Movie/SearchMovies?query=War%20of%20the%20Worlds responded 400 in 18 ms
+2025-08-05 19:11:29.352 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - 400 null application/problem+json; charset=utf-8 29.9566ms
+2025-08-05 19:11:29.502 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - null null
+2025-08-05 19:11:29.509 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:11:29.511 +02:00 [INF] Route matched with {action = "SearchMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovies(MovieAndSeriesScanner.Common.Api.Dto.SearchMovieParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:11:29.525 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-08-05 19:11:29.528 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api) in 3.6536ms
+2025-08-05 19:11:29.532 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:11:29.534 +02:00 [INF] HTTP GET /Movie/SearchMovies?query=War%20of%20the%20Worlds responded 400 in 25 ms
+2025-08-05 19:11:29.538 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - 400 null application/problem+json; charset=utf-8 36.5054ms
+2025-08-05 19:11:59.224 +02:00 [INF] Now listening on: https://localhost:7260
+2025-08-05 19:11:59.275 +02:00 [INF] Now listening on: http://localhost:5296
+2025-08-05 19:11:59.282 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-05 19:11:59.284 +02:00 [INF] Hosting environment: Development
+2025-08-05 19:11:59.285 +02:00 [INF] Content root path: C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Api
+2025-08-05 19:12:00.115 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2025-08-05 19:12:00.471 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 140 ms
+2025-08-05 19:12:00.489 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 390.2358ms
+2025-08-05 19:12:00.541 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-05 19:12:00.559 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 18.083ms
+2025-08-05 19:12:00.854 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2025-08-05 19:12:00.917 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.0495ms
+2025-08-05 19:12:00.968 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2025-08-05 19:12:01.097 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 121 ms
+2025-08-05 19:12:01.103 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 135.2119ms
+2025-08-05 19:12:13.289 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - null null
+2025-08-05 19:12:13.305 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:12:13.339 +02:00 [INF] Route matched with {action = "SearchMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovies(MovieAndSeriesScanner.Common.Api.Dto.SearchMovieParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:12:17.576 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/search/movie?*
+2025-08-05 19:12:17.583 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/search/movie?*
+2025-08-05 19:12:17.825 +02:00 [INF] Received HTTP response headers after 237.0307ms - 200
+2025-08-05 19:12:17.829 +02:00 [INF] End processing HTTP request after 256.9515ms - 200
+2025-08-05 19:12:18.027 +02:00 [INF] Executing OkObjectResult, writing value of type 'MovieAndSeriesScanner.Common.Api.Dto.SearchMovieWithVideosResponse'.
+2025-08-05 19:12:18.054 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api) in 4706.0258ms
+2025-08-05 19:12:18.057 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:12:18.063 +02:00 [INF] HTTP GET /Movie/SearchMovies?query=War%20of%20the%20Worlds responded 200 in 4762 ms
+2025-08-05 19:12:18.067 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - 200 null application/json; charset=utf-8 4778.6628ms
+2025-08-05 19:12:31.892 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - null null
+2025-08-05 19:12:31.903 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:12:31.905 +02:00 [INF] Route matched with {action = "SearchMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovies(MovieAndSeriesScanner.Common.Api.Dto.SearchMovieParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:12:48.836 +02:00 [INF] Now listening on: https://localhost:7260
+2025-08-05 19:12:48.902 +02:00 [INF] Now listening on: http://localhost:5296
+2025-08-05 19:12:48.914 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-05 19:12:48.917 +02:00 [INF] Hosting environment: Development
+2025-08-05 19:12:48.921 +02:00 [INF] Content root path: C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Api
+2025-08-05 19:12:50.039 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2025-08-05 19:12:50.476 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 172 ms
+2025-08-05 19:12:50.501 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 477.2509ms
+2025-08-05 19:12:50.576 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-05 19:12:50.600 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 24.7909ms
+2025-08-05 19:12:50.977 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2025-08-05 19:12:51.083 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 106.2383ms
+2025-08-05 19:12:51.170 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2025-08-05 19:12:51.279 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 101 ms
+2025-08-05 19:12:51.283 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.1888ms
+2025-08-05 19:13:04.672 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - null null
+2025-08-05 19:13:04.689 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:13:04.720 +02:00 [INF] Route matched with {action = "SearchMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovies(MovieAndSeriesScanner.Common.Api.Dto.SearchMovieParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:14:03.397 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/search/movie?*
+2025-08-05 19:14:03.403 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/search/movie?*
+2025-08-05 19:14:03.566 +02:00 [INF] Received HTTP response headers after 158.118ms - 200
+2025-08-05 19:14:03.570 +02:00 [INF] End processing HTTP request after 176.6596ms - 200
+2025-08-05 19:16:29.704 +02:00 [INF] Now listening on: https://localhost:7260
+2025-08-05 19:16:29.769 +02:00 [INF] Now listening on: http://localhost:5296
+2025-08-05 19:16:29.774 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-05 19:16:29.777 +02:00 [INF] Hosting environment: Development
+2025-08-05 19:16:29.779 +02:00 [INF] Content root path: C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Api
+2025-08-05 19:16:31.171 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2025-08-05 19:16:31.579 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 162 ms
+2025-08-05 19:16:31.602 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 446.494ms
+2025-08-05 19:16:31.651 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-05 19:16:31.673 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 22.3468ms
+2025-08-05 19:16:32.073 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2025-08-05 19:16:32.156 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.2565ms
+2025-08-05 19:16:32.228 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2025-08-05 19:16:32.381 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 139 ms
+2025-08-05 19:16:32.388 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 159.9397ms
+2025-08-05 19:16:46.952 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/SearchMovies?query=War%20of%20the%20Worlds - null null
+2025-08-05 19:16:46.963 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.SearchMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 19:16:46.996 +02:00 [INF] Route matched with {action = "SearchMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchMovies(MovieAndSeriesScanner.Common.Api.Dto.SearchMovieParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 19:17:00.174 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/search/movie?*
+2025-08-05 19:17:00.181 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/search/movie?*
+2025-08-05 19:17:00.304 +02:00 [INF] Received HTTP response headers after 117.8617ms - 200
+2025-08-05 19:17:00.308 +02:00 [INF] End processing HTTP request after 137.4825ms - 200
+2025-08-05 23:58:24.235 +02:00 [INF] Now listening on: https://localhost:7260
+2025-08-05 23:58:24.374 +02:00 [INF] Now listening on: http://localhost:5296
+2025-08-05 23:58:24.385 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-05 23:58:24.391 +02:00 [INF] Hosting environment: Development
+2025-08-05 23:58:24.399 +02:00 [INF] Content root path: C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Api
+2025-08-05 23:58:26.053 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2025-08-05 23:58:26.532 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 173 ms
+2025-08-05 23:58:26.548 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 512.187ms
+2025-08-05 23:58:26.579 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-05 23:58:26.597 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 18.3139ms
+2025-08-05 23:58:26.891 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2025-08-05 23:58:26.987 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 95.8549ms
+2025-08-05 23:58:27.073 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2025-08-05 23:58:27.192 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 109 ms
+2025-08-05 23:58:27.199 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.2529ms
+2025-08-05 23:58:32.144 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/Movie/Movies - null null
+2025-08-05 23:58:32.156 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 23:58:32.196 +02:00 [INF] Route matched with {action = "GetMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovies(MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesParametersRequest) on controller MovieAndSeriesScanner.Controllers.MovieController (MovieAndSeriesScanner.Api).
+2025-08-05 23:58:40.611 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/search/movie?*
+2025-08-05 23:58:40.618 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/search/movie?*
+2025-08-05 23:58:40.874 +02:00 [INF] Received HTTP response headers after 252.6728ms - 200
+2025-08-05 23:58:40.878 +02:00 [INF] End processing HTTP request after 270.8415ms - 200
+2025-08-05 23:59:53.299 +02:00 [INF] Executing OkObjectResult, writing value of type 'MovieAndSeriesScanner.Common.Api.Dto.DiscoverMoviesResponse'.
+2025-08-05 23:59:53.326 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api) in 81121.1562ms
+2025-08-05 23:59:53.330 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.MovieController.GetMovies (MovieAndSeriesScanner.Api)'
+2025-08-05 23:59:53.339 +02:00 [INF] HTTP GET /Movie/Movies responded 200 in 81185 ms
+2025-08-05 23:59:53.343 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/Movie/Movies - 200 null application/json; charset=utf-8 81200.1966ms

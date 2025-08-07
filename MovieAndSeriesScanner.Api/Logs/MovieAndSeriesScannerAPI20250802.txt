@@ -1,0 +1,26 @@
+2025-08-02 20:21:53.873 +02:00 [INF] Now listening on: https://localhost:7260
+2025-08-02 20:21:53.960 +02:00 [INF] Now listening on: http://localhost:5296
+2025-08-02 20:21:53.969 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-02 20:21:53.972 +02:00 [INF] Hosting environment: Development
+2025-08-02 20:21:53.974 +02:00 [INF] Content root path: C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Api
+2025-08-02 20:21:55.117 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2025-08-02 20:21:55.531 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 210 ms
+2025-08-02 20:21:55.565 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 461.7183ms
+2025-08-02 20:21:55.568 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-02 20:21:55.615 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 47.0041ms
+2025-08-02 20:21:56.100 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2025-08-02 20:21:56.172 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.5721ms
+2025-08-02 20:21:56.236 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2025-08-02 20:21:56.345 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 102 ms
+2025-08-02 20:21:56.352 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 116.2456ms
+2025-08-02 20:21:58.859 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/WeatherForecast - null null
+2025-08-02 20:21:58.869 +02:00 [INF] Executing endpoint 'MovieAndSeriesScanner.Controllers.WeatherForecastController.Get (MovieAndSeriesScanner.Api)'
+2025-08-02 20:21:58.898 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task Get() on controller MovieAndSeriesScanner.Controllers.WeatherForecastController (MovieAndSeriesScanner.Api).
+2025-08-02 20:22:01.002 +02:00 [INF] Start processing HTTP request GET https://api.themoviedb.org/3/authentication
+2025-08-02 20:22:01.009 +02:00 [INF] Sending HTTP request GET https://api.themoviedb.org/3/authentication
+2025-08-02 20:22:01.248 +02:00 [INF] Received HTTP response headers after 234.8577ms - 200
+2025-08-02 20:22:01.251 +02:00 [INF] End processing HTTP request after 253.0846ms - 200
+2025-08-02 20:22:01.259 +02:00 [INF] Executed action MovieAndSeriesScanner.Controllers.WeatherForecastController.Get (MovieAndSeriesScanner.Api) in 2354.0091ms
+2025-08-02 20:22:01.263 +02:00 [INF] Executed endpoint 'MovieAndSeriesScanner.Controllers.WeatherForecastController.Get (MovieAndSeriesScanner.Api)'
+2025-08-02 20:22:01.265 +02:00 [INF] HTTP GET /WeatherForecast responded 200 in 2398 ms
+2025-08-02 20:22:01.268 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/WeatherForecast - 200 0 null 2409.8218ms

@@ -1,0 +1,6 @@
+@MovieAndSeriesScanner_HostAddress = http://localhost:5296
+
+GET {{MovieAndSeriesScanner_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1F5AF9-1C38-4194-9BB9-69AD20162AFE}|..\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.services.api\\configuration\\servicesappconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1F5AF9-1C38-4194-9BB9-69AD20162AFE}|..\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.services.api\\services\\itmdbhttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1F5AF9-1C38-4194-9BB9-69AD20162AFE}|..\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.services.api\\services\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1F5AF9-1C38-4194-9BB9-69AD20162AFE}|..\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.services.api\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1F5AF9-1C38-4194-9BB9-69AD20162AFE}|..\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.services.api\\serviceproviders\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1F5AF9-1C38-4194-9BB9-69AD20162AFE}|..\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.services.api\\serviceproviders\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1F5AF9-1C38-4194-9BB9-69AD20162AFE}|..\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.services.api\\serviceproviders\\httpserviceproviders\\tmdbhttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1F5AF9-1C38-4194-9BB9-69AD20162AFE}|..\\MovieAndSeriesScanner.Services.Api\\MovieAndSeriesScanner.Services.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.services.api\\helpers\\httprequesthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7B6D87-991F-4B0E-A10D-2B67FD439B33}|..\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.common.api\\models\\appendtoresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7B6D87-991F-4B0E-A10D-2B67FD439B33}|..\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.common.api\\exceptions\\tmdbapiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7B6D87-991F-4B0E-A10D-2B67FD439B33}|..\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.common.api\\dto\\withappendtoresponserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7B6D87-991F-4B0E-A10D-2B67FD439B33}|..\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.common.api\\dto\\tmdbmoviesapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7B6D87-991F-4B0E-A10D-2B67FD439B33}|..\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.common.api\\dto\\tmdbmovieapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7B6D87-991F-4B0E-A10D-2B67FD439B33}|..\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.common.api\\dto\\discovermoviesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7B6D87-991F-4B0E-A10D-2B67FD439B33}|..\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.common.api\\dto\\discovermoviesparametersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.api\\middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|solutionrelative:middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.api\\middleware\\exceptionhandling\\tmdbapiexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|solutionrelative:middleware\\exceptionhandling\\tmdbapiexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.api\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|solutionrelative:controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68BB0796-69E6-44B3-801C-7DCAF7F19A16}|MovieAndSeriesScanner.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B7B6D87-991F-4B0E-A10D-2B67FD439B33}|..\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj|c:\\users\\tsmoljan\\desktop\\moviesandshowsapp\\movieandseriesscanner.common.api\\movieandseriesscanner.common.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Controllers\\MovieController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T15:03:06.16Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\MovieService.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\MovieService.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\MovieService.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\MovieService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwDoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T15:30:43.71Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TmdbHttpService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\HttpServiceProviders\\TmdbHttpService.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\HttpServiceProviders\\TmdbHttpService.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\HttpServiceProviders\\TmdbHttpService.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\HttpServiceProviders\\TmdbHttpService.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwBsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:43:08.875Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HttpRequestHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\Helpers\\HttpRequestHelper.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Services.Api\\Helpers\\HttpRequestHelper.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\Helpers\\HttpRequestHelper.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Services.Api\\Helpers\\HttpRequestHelper.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwB8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T18:36:32.784Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:254354193:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TmdbMoviesApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Dto\\TmdbMoviesApiResponse.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Common.Api\\Dto\\TmdbMoviesApiResponse.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Dto\\TmdbMoviesApiResponse.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Common.Api\\Dto\\TmdbMoviesApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T20:52:08.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\RequestLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "Middleware\\RequestLoggingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T18:13:23.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TmdbApiExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\Middleware\\ExceptionHandling\\TmdbApiExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionHandling\\TmdbApiExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\Middleware\\ExceptionHandling\\TmdbApiExceptionHandler.cs",
+              "RelativeToolTip": "Middleware\\ExceptionHandling\\TmdbApiExceptionHandler.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T16:42:53.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:45:55.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DiscoverMoviesParametersRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Dto\\DiscoverMoviesParametersRequest.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Common.Api\\Dto\\DiscoverMoviesParametersRequest.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Dto\\DiscoverMoviesParametersRequest.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Common.Api\\Dto\\DiscoverMoviesParametersRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T20:20:42.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WithAppendToResponseRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Dto\\WithAppendToResponseRequest.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Common.Api\\Dto\\WithAppendToResponseRequest.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Dto\\WithAppendToResponseRequest.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Common.Api\\Dto\\WithAppendToResponseRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:16:24.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TmdbMovieApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Dto\\TmdbMovieApiResponse.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Common.Api\\Dto\\TmdbMovieApiResponse.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Dto\\TmdbMovieApiResponse.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Common.Api\\Dto\\TmdbMovieApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:31:37.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DiscoverMoviesResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Dto\\DiscoverMoviesResponse.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Common.Api\\Dto\\DiscoverMoviesResponse.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Dto\\DiscoverMoviesResponse.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Common.Api\\Dto\\DiscoverMoviesResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:34:43.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TmdbApiException.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Exceptions\\TmdbApiException.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Common.Api\\Exceptions\\TmdbApiException.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Exceptions\\TmdbApiException.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Common.Api\\Exceptions\\TmdbApiException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T20:33:36.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppendToResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Models\\AppendToResponseModel.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Common.Api\\Models\\AppendToResponseModel.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\Models\\AppendToResponseModel.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Common.Api\\Models\\AppendToResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T19:16:44.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServicesAppConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\Configuration\\ServicesAppConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Services.Api\\Configuration\\ServicesAppConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\Configuration\\ServicesAppConfiguration.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Services.Api\\Configuration\\ServicesAppConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:13:16.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\CacheService.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\CacheService.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\CacheService.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Services.Api\\ServiceProviders\\CacheService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T17:58:46.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\Services\\ICacheService.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Services.Api\\Services\\ICacheService.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\Services\\ICacheService.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Services.Api\\Services\\ICacheService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T17:43:01.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\Services\\IMovieService.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Services.Api\\Services\\IMovieService.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\Services\\IMovieService.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Services.Api\\Services\\IMovieService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T15:30:28.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAswB4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-02T16:58:55.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITmdbHttpService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\Services\\ITmdbHttpService.cs",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Services.Api\\Services\\ITmdbHttpService.cs",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Services.Api\\Services\\ITmdbHttpService.cs",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Services.Api\\Services\\ITmdbHttpService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T20:47:43.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-02T16:19:03.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MovieAndSeriesScanner.Common.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj",
+              "RelativeDocumentMoniker": "..\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj",
+              "ToolTip": "C:\\Users\\Tsmoljan\\Desktop\\MoviesAndShowsApp\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj",
+              "RelativeToolTip": "..\\MovieAndSeriesScanner.Common.Api\\MovieAndSeriesScanner.Common.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-04T16:41:47.837Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

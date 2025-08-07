@@ -1,0 +1,11 @@
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\bin\Debug\net8.0\MovieAndSeriesScanner.Common.Api.deps.json
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\bin\Debug\net8.0\MovieAndSeriesScanner.Common.Api.dll
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\bin\Debug\net8.0\MovieAndSeriesScanner.Common.Api.pdb
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Common.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Common.Api.AssemblyInfoInputs.cache
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Common.Api.AssemblyInfo.cs
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Common.Api.csproj.CoreCompileInputs.cache
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Common.Api.dll
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\obj\Debug\net8.0\refint\MovieAndSeriesScanner.Common.Api.dll
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\obj\Debug\net8.0\MovieAndSeriesScanner.Common.Api.pdb
+C:\Users\Tsmoljan\Desktop\MoviesAndShowsApp\MovieAndSeriesScanner.Common.Api\obj\Debug\net8.0\ref\MovieAndSeriesScanner.Common.Api.dll
